@@ -1,4 +1,3 @@
-# Copyright (C) 2021-2023, Mindee.
 
 # This program is licensed under the Apache License 2.0.
 # See LICENSE or go to <https://opensource.org/licenses/Apache-2.0> for full license details.
@@ -31,7 +30,7 @@ class DocumentBuilder(NestedObject):
     def __init__(
         self,
         resolve_lines: bool = True,
-        resolve_blocks: bool = True,
+        resolve_blocks: bool = False,
         paragraph_break: float = 0.035,
         export_as_straight_boxes: bool = False,
     ) -> None:
